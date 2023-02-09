@@ -29,3 +29,17 @@
 [0131/132710.556:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
 [0202/124758.319:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [0202/152730.043:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0209/104436.515:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0209/104436.516:ERROR:entry_impl.cc(1076)] No file for c1030c8a
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:ERROR:entry_impl.cc(1076)] No file for c1030c0e
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.516:ERROR:entry_impl.cc(1076)] No file for c1030c8e
+[0209/104436.517:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.517:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104436.517:WARNING:storage_block-inl.h(146)] Failed data load.
+[0209/104439.441:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
