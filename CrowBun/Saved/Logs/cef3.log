@@ -44,3 +44,9 @@
 [0209/104436.517:WARNING:storage_block-inl.h(146)] Failed data load.
 [0209/104439.441:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [0209/130809.703:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0209/141257.377:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0209/141257.520:WARNING:backend_impl.cc(1573)] Wrong entry address.
+[0209/145623.277:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0209/145711.842:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+[0209/145711.845:ERROR:cache_util.cc(139)] Unable to move cache folder C:/Users/arcti/OneDrive/Dokumenter/GitHub/Crows_nest/Crows-Nest/CrowBun/Saved/webcache_4147\Cache to C:/Users/arcti/OneDrive/Dokumenter/GitHub/Crows_nest/Crows-Nest/CrowBun/Saved/webcache_4147\old_Cache_000
+[0209/145711.845:ERROR:disk_cache.cc(184)] Unable to create cache
