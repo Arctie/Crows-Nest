@@ -2909,3 +2909,67 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.28-13.47.12:085][525]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_Glimmer_FBTilemap3_DS.T_Glimmer_FBTilemap3_DS
 [2023.02.28-13.47.12:085][525]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_Glimmer_FBTilemap3_LYS.T_Glimmer_FBTilemap3_LYS
 [2023.02.28-13.47.12:085][525]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Assets/Materials/M_Glimmer.M_Glimmer
+[2023.02.28-13.49.53:982][802]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-13.49.53:991][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-13.49.53:991][802]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 3:49:53 PM)
+[2023.02.28-13.49.54:025][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-13.49.54:032][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006486s)
+[2023.02.28-13.49.54:032][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.006596s)
+[2023.02.28-13.49.54:032][802]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-13.49.54:032][802]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.49.54:032][802]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-13.49.54:033][802]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2023.02.28-13.49.54:082][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.28-13.49.54:085][802]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-13.49.54:086][802]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-13.49.54:086][802]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-13.49.54:086][802]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-13.49.54:086][802]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-13.49.54:086][802]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-13.49.54:088][802]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-13.49.54:111][802]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-13.49.54:111][802]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-13.49.54:111][802]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-13.49.54:111][802]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-13.49.54:112][802]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.02.28-13.49.54:112][802]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.02.28-13.49.54:114][802]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.02.28-13.49.54:114][802]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.02.28-13.49.54:114][802]LogInit: FAudioDevice initialized.
+[2023.02.28-13.49.54:114][802]LogAudio: Display: Audio Device (ID: 14) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-13.49.54:127][802]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-13.49.54:129][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-14.49.54
+[2023.02.28-13.49.54:129][802]LogWorld: Bringing up level for play took: 0.001626
+[2023.02.28-13.49.54:131][802]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.02.28-13.49.54:133][802]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-13.49.54:133][802]PIE: Server logged in
+[2023.02.28-13.49.54:134][802]PIE: Play in editor total start time 0.144 seconds.
+[2023.02.28-13.49.58:035][234]LogBlueprintUserMessages: [BP_collectable_C_3] Saved gameTransformTranslation: X=-1870.000 Y=-270.000 Z=100.000 Rotation: P=0.000000 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+[2023.02.28-13.50.04:115][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-13.50.04:115][935]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-13.50.04:116][935]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-13.50.04:116][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.50.04:127][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-13.50.04:132][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-13.50.04:177][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-13.50.04:178][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.02.28-13.50.04:179][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.02.28-13.50.04:186][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.02.28-13.50.04:239][936]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.02.28-13.50.09:554][372]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2023.02.28-13.50.09:943][399]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2023.02.28-13.50.10:267][428]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 4
+[2023.02.28-13.52.58:749][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.02.28-13.52.59:655][656]LogSlate: Window 'Save Content' being destroyed
+[2023.02.28-13.52.59:736][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.02.28-13.52.59:750][656]LogSavePackage: Moving output files for package: /Game/Maps/LVL_MaterialTesting
+[2023.02.28-13.52.59:750][656]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/LVL_MaterialTesting06EAFAAB429EE497B41CAEB86B4D515F.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Maps/LVL_MaterialTesting.umap'
+[2023.02.28-13.52.59:760][656]LogFileHelpers: Saving map 'LVL_MaterialTesting' took 0.068
+[2023.02.28-13.52.59:776][656]AssetCheck: New page: Asset Save: LVL_MaterialTesting
+[2023.02.28-13.52.59:776][656]LogContentValidation: Display: Validating World /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting
