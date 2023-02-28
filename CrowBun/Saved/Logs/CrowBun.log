@@ -2973,3 +2973,1196 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.02.28-13.52.59:760][656]LogFileHelpers: Saving map 'LVL_MaterialTesting' took 0.068
 [2023.02.28-13.52.59:776][656]AssetCheck: New page: Asset Save: LVL_MaterialTesting
 [2023.02.28-13.52.59:776][656]LogContentValidation: Display: Validating World /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting
+[2023.02.28-13.58.11:401][ 87]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\arcti\OneDrive\Skrivebord\T_SnowSparkles.png)
+[2023.02.28-13.58.11:420][ 87]LogTexture: Display: Building textures: /Game/Assets/Textures/T_SnowSparkles.T_SnowSparkles (TFO_AutoDXT, 256X256 X1X1) (Required Memory Estimate: 1.250 MB), EncodeSpeed: Fast
+[2023.02.28-13.58.13:747][ 96]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_SnowSparkles.T_SnowSparkles
+[2023.02.28-13.58.13:748][ 96]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2023.02.28-13.58.13:825][ 96]LogViewport: Scene viewport resized to 1905x1250, mode Windowed.
+[2023.02.28-13.58.25:151][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_SnowSparkles" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Textures/T_SnowSparkles.uasset" SILENT=true
+[2023.02.28-13.58.25:156][416]LogSavePackage: Moving output files for package: /Game/Assets/Textures/T_SnowSparkles
+[2023.02.28-13.58.25:156][416]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/T_SnowSparkles8DB978DE45ECAE0AB8C088A5C20EED3E.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Textures/T_SnowSparkles.uasset'
+[2023.02.28-13.58.25:172][416]AssetCheck: New page: Asset Save: T_SnowSparkles
+[2023.02.28-13.58.25:172][416]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_SnowSparkles.T_SnowSparkles
+[2023.02.28-13.58.31:260][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.02.28-13.58.36:805][931]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.28-13.58.44:011][475]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/Materials/M_Snow.M_Snow
+[2023.02.28-13.58.44:013][475]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.58.44:189][475]LogViewport: Scene viewport resized to 1783x1254, mode Windowed.
+[2023.02.28-13.59.01:676][274]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.02.28-13.59.01:676][274]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.02.28-13.59.24:229][357]LogContentBrowser: Deferred new asset file creation: M_MasterToon1
+[2023.02.28-13.59.24:243][357]LogContentBrowser: Creating deferred item: M_MasterToon1
+[2023.02.28-13.59.24:256][358]LogContentBrowser: Renaming the item being created (Deferred Item: M_MasterToon1).
+[2023.02.28-13.59.33:097][118]LogContentBrowser: Attempting asset rename: M_MasterToon1 -> M_SnowWithSite
+[2023.02.28-13.59.33:103][118]LogMaterial: Display: Missing cached shadermap for M_SnowWithSite in PCD3D_SM5, Default, SM5 (DDC key hash: 2B0C9BAD32F5250970FE8D008FA3E435A9538396), compiling. 
+[2023.02.28-13.59.33:153][118]LogContentBrowser: End creating deferred item M_MasterToon1
+[2023.02.28-13.59.35:583][213]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.02.28-13.59.35:583][213]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.02.28-13.59.37:428][270]LogContentBrowser: Attempting asset rename: M_SnowWithSite -> M_SnowWithSite
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: ================================================
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Total job queries 810, among them cache hits 513 (63.33%)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Tracking 225 distinct input hashes that result in 59 distinct outputs (26.22%)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Shaders Compiled: 97
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Jobs assigned 266, completed 225 (84.59%)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Average time worker was idle: 70.36 s
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Time job spent in pending queue: average 2.11 s, longest 8.30 s
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Job execution time: average 1.69 s, max 10.43 s
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Job life time (pending + execution): average 4.18 s, max 10.47
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 60.50 s
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Jobs were issued in 225 batches (only local compilation was used), average 1.18 jobs/batch
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Average processing rate: 3.72 jobs/sec
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Effective parallelization: 4.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   12 times, average 1.48 sec, max 1.89 sec, min 1.20 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   12 times, average 1.42 sec, max 1.83 sec, min 1.16 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   12 times, average 1.39 sec, max 1.65 sec, min 0.97 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   24 times, average 1.36 sec, max 1.93 sec, min 0.85 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   13 times, average 1.36 sec, max 1.82 sec, min 1.14 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.59% of total time (compiled   24 times, average 1.36 sec, max 1.93 sec, min 0.85 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.13% of total time (compiled   23 times, average 1.24 sec, max 1.69 sec, min 0.72 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.31% of total time (compiled   12 times, average 1.48 sec, max 1.89 sec, min 1.20 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.25% of total time (compiled   13 times, average 1.36 sec, max 1.82 sec, min 1.14 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.21% of total time (compiled   13 times, average 1.35 sec, max 1.80 sec, min 0.94 sec)
+[2023.02.28-13.59.43:634][507]LogShaderCompilers: Display: ================================================
+[2023.02.28-13.59.48:807][860]LogContentBrowser: Attempting asset rename: M_SnowWithSite -> M_SnowWithShine
+[2023.02.28-13.59.48:883][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_SnowWithShine" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset" SILENT=true
+[2023.02.28-13.59.48:887][860]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_SnowWithShine
+[2023.02.28-13.59.48:887][860]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/M_SnowWithShineB9C089B9442F7974E6E813983CDD5EB9.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset'
+[2023.02.28-13.59.48:963][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.02.28-13.59.49:013][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.02.28-13.59.49:057][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.02.28-13.59.49:064][860]AssetCheck: New page: Asset Save: M_SnowWithShine
+[2023.02.28-13.59.49:065][860]LogContentValidation: Display: Validating Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-13.59.50:170][947]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-13.59.50:172][947]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 23602A1C83635F13BFB61CFC0FBC49707C7BA658), compiling. 
+[2023.02.28-13.59.50:200][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-13.59.50:262][947]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: D8C5871E0B08B82ED6C1F942317D1BA34B364076), compiling. 
+[2023.02.28-13.59.50:269][947]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 71DC96549B10180A3CB77CD5998BB3BE30D5637F), compiling. 
+[2023.02.28-13.59.50:271][947]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F2189FCD4FE856E22F0690F21001C5CA77DEDAC), compiling. 
+[2023.02.28-13.59.50:273][947]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0244FA165F4DAD5DEE5568C38A91710C6E532181), compiling. 
+[2023.02.28-13.59.50:274][947]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D847512FA9B023966C804F0F0D1CA133DEEEFCF5), compiling. 
+[2023.02.28-13.59.50:276][947]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: B10AB1507A50833E3A5D5AB684D21C8DB0659510), compiling. 
+[2023.02.28-13.59.50:278][947]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B99E54343F7DBD00B4E49A8BD7CF534CA1122E4A), compiling. 
+[2023.02.28-13.59.50:316][947]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-13.59.50:316][947]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.50:316][947]MaterialEditorStats: Shader Count: 0
+[2023.02.28-13.59.50:320][947]LogViewport: Scene viewport resized to 504x625, mode Windowed.
+[2023.02.28-13.59.51:518][ 44]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-13.59.51:518][ 44]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.51:518][ 44]MaterialEditorStats: Shader Count: 4
+[2023.02.28-13.59.58:802][789]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: DC09690649377A90A04DBDA6CCE92332E8FA889F), compiling. 
+[2023.02.28-13.59.58:805][789]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 53DDC47054D09EE5C00BC980F05BC05FC95BE330), compiling. 
+[2023.02.28-13.59.58:811][789]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-13.59.58:811][789]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.58:811][789]MaterialEditorStats: Shader Count: 0
+[2023.02.28-13.59.58:833][791]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-13.59.58:833][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.58:833][791]MaterialEditorStats: Shader Count: 4
+[2023.02.28-13.59.59:509][850]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: ADA76969E9E022DD07D0D0E21AA8891717EDB6E3), compiling. 
+[2023.02.28-13.59.59:511][850]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B2048CE15676B2716E1A2CFB7684813B72BE766), compiling. 
+[2023.02.28-13.59.59:517][850]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-13.59.59:517][850]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.59:517][850]MaterialEditorStats: Shader Count: 0
+[2023.02.28-13.59.59:538][852]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-13.59.59:538][852]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-13.59.59:538][852]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.00.01:148][ 19]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 6E6FB8617C738140CA76305187CE4D767E470AB3), compiling. 
+[2023.02.28-14.00.01:150][ 19]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6A76D716F11E6BD02220DA32EEC431090EC8EBAD), compiling. 
+[2023.02.28-14.00.01:155][ 19]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.00.01:155][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.00.01:155][ 19]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.00.01:174][ 21]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-14.00.01:174][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.00.01:174][ 21]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.00.01:978][ 95]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 7D44DB96AEE8C178261865EB63B6F1E8F5CD6773), compiling. 
+[2023.02.28-14.00.01:980][ 95]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1DC224B0FD89B6CE4B99FD54A0C5B6D428114DF5), compiling. 
+[2023.02.28-14.00.01:985][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.00.01:985][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.00.01:985][ 95]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.00.02:006][ 97]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-14.00.02:006][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.00.02:006][ 97]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.00.02:997][194]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.28-14.01.05:050][922]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: A3F52E3F24F9E7A4BB07E854123B13E0875BBC6D), compiling. 
+[2023.02.28-14.01.05:053][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D8524D1778E2EC91321C3A21728A8ED4A8D72E89), compiling. 
+[2023.02.28-14.01.05:055][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 539A0BF382CAF969416EF6A99D3797311EF47B94), compiling. 
+[2023.02.28-14.01.05:057][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3F4051B90BC6088B03F352862A5AF164EC164FA8), compiling. 
+[2023.02.28-14.01.05:059][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5AB5416C732A49F94F89AB30A6866B8F503E9198), compiling. 
+[2023.02.28-14.01.05:061][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 603BBE3794247BFAD2A1E5B8EE2B32EB168BAFB6), compiling. 
+[2023.02.28-14.01.05:063][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 265030DF670D47F0B342B70CDBA30890923C6385), compiling. 
+[2023.02.28-14.01.05:064][922]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B8D1FCC33ABD2E020F58598E390CC4547DAE9D75), compiling. 
+[2023.02.28-14.01.05:068][922]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.05:068][922]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.01.05:068][922]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.05:138][924]MaterialEditorStats: Texture samplers: 2/16
+[2023.02.28-14.01.05:138][924]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.02.28-14.01.05:138][924]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.08:005][197]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 89F6AA7F21DC5CF294F9CAB1ED9AF770B96DB666), compiling. 
+[2023.02.28-14.01.08:007][197]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ED055F677788D6D0345975F694B3165F666F31BE), compiling. 
+[2023.02.28-14.01.08:015][197]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.08:015][197]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.08:015][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.08:015][197]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.08:675][254]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.08:675][254]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.08:675][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.08:675][254]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.09:085][290]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.09:085][290]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.09:085][290]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.09:085][290]MaterialEditorStats: Shader Count: 2
+[2023.02.28-14.01.15:492][788]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: B3D26202048A5A7F2370D63F61723A3CCB788157), compiling. 
+[2023.02.28-14.01.15:496][788]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.15:497][788]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.15:497][788]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.15:497][788]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.15:544][790]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.15:544][790]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.15:544][790]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.15:544][790]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.16:924][932]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 1706E8907A85F0A565DDD56519AECAD64C2CADB2), compiling. 
+[2023.02.28-14.01.16:926][932]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BB268F0F67EFCD804C2D8CD1B916999AE0172043), compiling. 
+[2023.02.28-14.01.16:933][932]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.16:933][932]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.01.16:933][932]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.17:483][980]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.17:484][980]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.01.17:484][980]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.18:482][ 50]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.18:482][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.01.18:482][ 50]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.25:085][791]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 598B7E6BA1BB3CB3C7D1B62A04B0F9B5C560C78F), compiling. 
+[2023.02.28-14.01.25:091][791]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.25:091][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.01.25:091][791]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.25:142][793]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.25:142][793]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.01.25:142][793]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.26:673][961]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 32F48F230EEF6D90ABCFDEB4A2463E8EA893A34A), compiling. 
+[2023.02.28-14.01.26:680][961]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.26:680][961]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.26:680][961]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.26:680][961]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.27:191][  5]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.27:191][  5]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.27:191][  5]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.27:191][  5]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.27:883][ 64]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.27:884][ 64]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.27:884][ 64]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.27:884][ 64]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.29:145][204]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: F2E1816D62F5B39E000C8D18CA3DE036016BA4E8), compiling. 
+[2023.02.28-14.01.29:153][204]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 451E1E58A4EA791436EA7687F75DCAEB1FF4A2EF), compiling. 
+[2023.02.28-14.01.29:157][204]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.29:157][204]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.29:157][204]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.29:157][204]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.29:739][251]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.29:740][251]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.29:740][251]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.29:740][251]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.30:328][306]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.30:328][306]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.30:328][306]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.30:328][306]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.01.35:363][867]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 2C17D055E73827E0F3724D9143BB3058DE96BB64), compiling. 
+[2023.02.28-14.01.35:370][867]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 63F88A12FA5BF7D875197ECB54F1ACD6FC91B211), compiling. 
+[2023.02.28-14.01.35:372][867]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4D3CE2EEF7AF885EFA99C4FDED8139BDBAF6328D), compiling. 
+[2023.02.28-14.01.35:379][867]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.35:379][867]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.35:379][867]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.35:379][867]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.35:422][869]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.35:422][869]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.35:422][869]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.35:422][869]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.37:004][ 26]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 59D182F6D19D22645D9A8A9D2C6D4F86E9564220), compiling. 
+[2023.02.28-14.01.37:012][ 26]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.37:012][ 26]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.37:012][ 26]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.37:012][ 26]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.37:603][ 78]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.37:603][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.37:603][ 78]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.37:603][ 78]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.38:120][119]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.38:120][119]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.38:120][119]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.38:120][119]MaterialEditorStats: Shader Count: 2
+[2023.02.28-14.01.40:371][330]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 0D17FD1FC8F154A5C62AF52FDED1A3AC70DFD5E9), compiling. 
+[2023.02.28-14.01.40:380][330]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: D82F52E7D3F75DA2DA1470DBF07C2703D99B505B), compiling. 
+[2023.02.28-14.01.40:384][330]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.40:384][330]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.40:384][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.40:384][330]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.40:839][376]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.01.40:839][376]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.40:839][376]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.40:839][376]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.01.41:443][439]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.41:443][439]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.41:443][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.41:443][439]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.01.43:162][635]LogDerivedDataCache: C:/Users/arcti/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.717 and deleted 0 file(s) with total size 0 MiB.
+[2023.02.28-14.01.59:535][ 46]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 48685B3D80EB9D62167F852AE2212B109C4B8987), compiling. 
+[2023.02.28-14.01.59:538][ 46]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.01.59:538][ 46]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.59:538][ 46]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.59:538][ 46]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.01.59:585][ 48]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.01.59:585][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.01.59:585][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.01.59:585][ 48]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.02:412][355]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: E46CA6E79AF7C294B1980F3DEAD7EC51577C7D8B), compiling. 
+[2023.02.28-14.02.02:421][355]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: D533B6256916973B20255A259375A46CE42965E5), compiling. 
+[2023.02.28-14.02.02:425][355]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.02:425][355]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.02:425][355]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.02:425][355]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.02:450][357]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.02:450][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.02:450][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.02:450][357]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.03:332][435]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 7C5D0450F47CC0EDA09C7207A4EAEC8118C3E4BA), compiling. 
+[2023.02.28-14.02.03:339][435]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.03:339][435]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.03:339][435]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.03:339][435]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.03:364][437]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.03:364][437]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.03:364][437]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.03:364][437]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.22:391][518]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 65DE31BFEAF0BB738717A72DA97BB830B14782EB), compiling. 
+[2023.02.28-14.02.22:393][518]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 241611342A8FB360BF623FAA8AA3ABB4572028F6), compiling. 
+[2023.02.28-14.02.22:395][518]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0710B026B71026DEA6C5B5E3E32838B99F51493C), compiling. 
+[2023.02.28-14.02.22:402][518]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.22:402][518]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.22:403][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.22:403][518]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.22:465][520]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.22:465][520]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.22:465][520]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.22:465][520]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.28:888][158]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 3F504EA7C6F13D8F209D40BFBEC50AC002FF7769), compiling. 
+[2023.02.28-14.02.28:891][158]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FAA8475A275C32EAB377C9B3C64E0C41DC68F103), compiling. 
+[2023.02.28-14.02.28:896][158]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.28:896][158]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.28:896][158]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.28:896][158]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.28:938][160]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.28:938][160]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.28:938][160]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.28:938][160]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.35:583][845]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 6EBC83C67DBA7997441913B48ABBCB1FE78F1052), compiling. 
+[2023.02.28-14.02.35:595][845]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.35:595][845]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.35:595][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.35:595][845]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.35:650][847]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.35:650][847]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.35:650][847]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.35:650][847]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.02.35:684][848]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CE93D7804047DBFEEF88DC550039C48758F068FB), compiling. 
+[2023.02.28-14.02.42:674][548]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: B7541C41B26D95C4BCB2FABA5AC8264FD5FDF3C3), compiling. 
+[2023.02.28-14.02.42:677][548]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F574000FF20A13058999CD17F420B27241E8C33B), compiling. 
+[2023.02.28-14.02.42:684][548]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.42:684][548]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.42:684][548]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.42:684][548]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.43:398][595]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.02.43:398][595]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.43:398][595]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.43:398][595]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Total job queries 1042, among them cache hits 673 (64.59%)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Tracking 313 distinct input hashes that result in 82 distinct outputs (26.20%)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: RAM used: 0.21 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Shaders Compiled: 125
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Jobs assigned 314, completed 313 (99.68%)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Average time worker was idle: 60.85 s
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Time job spent in pending queue: average 1.80 s, longest 8.30 s
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Job execution time: average 2.84 s, max 11.55 s
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Job life time (pending + execution): average 4.65 s, max 11.59
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 77.69 s
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Jobs were issued in 273 batches (only local compilation was used), average 1.15 jobs/batch
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Average processing rate: 4.03 jobs/sec
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Effective parallelization: 5.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   15 times, average 1.54 sec, max 1.91 sec, min 1.20 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   15 times, average 1.51 sec, max 1.91 sec, min 1.16 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   15 times, average 1.49 sec, max 2.18 sec, min 0.97 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   15 times, average 1.44 sec, max 1.85 sec, min 1.12 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   15 times, average 1.43 sec, max 2.06 sec, min 1.14 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.91% of total time (compiled   40 times, average 1.26 sec, max 1.93 sec, min 0.84 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.31% of total time (compiled   41 times, average 1.17 sec, max 2.04 sec, min 0.71 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.96% of total time (compiled   25 times, average 1.24 sec, max 2.08 sec, min 0.94 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.93% of total time (compiled   15 times, average 1.54 sec, max 1.91 sec, min 1.20 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.79% of total time (compiled   15 times, average 1.51 sec, max 1.91 sec, min 1.16 sec)
+[2023.02.28-14.02.43:989][634]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.02.44:000][635]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.44:000][635]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.02.28-14.02.44:000][635]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.02.44:000][635]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.02.44:435][670]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: B8E1A472576DDA6DD990FB6FF064F2AC81444950), compiling. 
+[2023.02.28-14.02.44:437][670]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6829ABC5D261A2D270CB546CC896024CE678BBAA), compiling. 
+[2023.02.28-14.02.44:444][670]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.02.44:444][670]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.02.44:444][670]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.02.45:188][721]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.02.45:188][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.02.45:188][721]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.02.46:279][792]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.02.46:279][792]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.02.46:279][792]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.03.08:417][313]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 9F19EAE88FC9C188A4D1CBF5EB7D139CF10ABCD3), compiling. 
+[2023.02.28-14.03.08:424][313]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: D069DF00B49772F3C1807A170F14706C2D24D48C), compiling. 
+[2023.02.28-14.03.08:432][313]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.03.08:432][313]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.08:432][313]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.03.08:480][315]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.03.08:480][315]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.08:480][315]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.03.12:959][804]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: AFC7521421F573B243CDA36A0955843717333D46), compiling. 
+[2023.02.28-14.03.12:969][804]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: A17C2FEA1C7F44FE0151A61934D0ABAB511ECDCC), compiling. 
+[2023.02.28-14.03.12:972][804]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.03.12:972][804]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.12:972][804]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.03.12:995][806]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.03.12:995][806]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.12:995][806]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.03.23:049][853]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 976646A2E44A543B9A0F517D3F8CE8C76E94BE13), compiling. 
+[2023.02.28-14.03.23:056][853]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: CE3A747D189B181211B8AD42AE44B08E8B138ECC), compiling. 
+[2023.02.28-14.03.23:065][853]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.03.23:065][853]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.23:066][853]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.03.23:116][855]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.03.23:116][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.23:116][855]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.03.24:343][961]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 40B774B63DDCD8DADAB15F1E6E1216B83F22FA79), compiling. 
+[2023.02.28-14.03.24:350][961]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.03.24:350][961]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.24:350][961]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.03.24:380][963]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.03.24:380][963]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.24:380][963]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.03.25:332][ 49]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 9DCD6A7869A7AC6FA789FC055639713BB7E7B20B), compiling. 
+[2023.02.28-14.03.25:335][ 49]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2170A721637C971FD5DD39B3798ECFF63BE4D01E), compiling. 
+[2023.02.28-14.03.25:343][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.03.25:343][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.25:343][ 49]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.03.26:740][151]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.03.26:740][151]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.26:740][151]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.03.27:523][210]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.03.27:523][210]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.03.27:523][210]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.04.26:388][724]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: DC03C1C00943EFE62D68833557C683BF9EE1CAD1), compiling. 
+[2023.02.28-14.04.26:396][724]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 168BF36BCAABC21E3543B46A4BFB25E3D635653E), compiling. 
+[2023.02.28-14.04.26:398][724]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C24FAFDB0ACEE3EDC1D1BDD9F3E5E741FCD563BE), compiling. 
+[2023.02.28-14.04.26:407][724]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.04.26:407][724]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.04.26:407][724]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.04.26:458][726]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.04.26:458][726]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.04.26:458][726]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.04.28:399][923]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 99F967A5E90DA6A60667104B2D9FDF888CB80C00), compiling. 
+[2023.02.28-14.04.28:402][923]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0CFCD4C096EEF6BAA7F353AFDDF761A53EA01E19), compiling. 
+[2023.02.28-14.04.28:408][923]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.04.28:408][923]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.04.28:408][923]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.04.28:439][925]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.04.28:439][925]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.02.28-14.04.28:439][925]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.04.29:576][ 38]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: FD4AB739EBB8B0F6AF8E6E9EC8DB7A0A143A66CB), compiling. 
+[2023.02.28-14.04.29:583][ 38]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.04.29:583][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.29:583][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.29:583][ 38]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.04.30:476][111]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.04.30:476][111]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.30:476][111]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.30:476][111]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.04.31:072][167]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.04.31:072][167]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.31:072][167]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.31:072][167]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.04.40:402][246]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 4EC6F6856D5F8D83F31ABB52DC99E0987988325E), compiling. 
+[2023.02.28-14.04.40:411][246]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 182C70DF17D39C297FC16E8FA7276FC7F46868EB), compiling. 
+[2023.02.28-14.04.40:414][246]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.04.40:414][246]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.40:414][246]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.40:414][246]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.04.40:983][289]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.04.40:983][289]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.40:983][289]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.40:983][289]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.04.41:581][340]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.04.41:581][340]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.41:581][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.41:581][340]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.04.44:488][666]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 47E2F87BA1FCE3255DE5EE17796085BB6AFF75F9), compiling. 
+[2023.02.28-14.04.44:497][666]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: A37A1E5A0DC363CBBA9219A06515FB503DD29368), compiling. 
+[2023.02.28-14.04.44:501][666]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.04.44:501][666]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.44:501][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.44:501][666]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.04.45:089][709]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.04.45:089][709]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.45:089][709]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.45:089][709]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.04.45:780][769]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.04.45:780][769]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.04.45:780][769]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.04.45:780][769]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.05.26:568][328]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: BEB7AAE71B6E86125A452BDD10BCD76BAEE85C7D), compiling. 
+[2023.02.28-14.05.26:576][328]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 2AD01D98C526F941C063B37E263A0A385D90660A), compiling. 
+[2023.02.28-14.05.26:585][328]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.05.26:585][328]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.26:585][328]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.26:585][328]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.05.26:635][330]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.05.26:635][330]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.26:635][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.26:635][330]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.05.28:899][576]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: DC7A675DD70606042DF0746E07B9FE9C0B3E9426), compiling. 
+[2023.02.28-14.05.28:905][576]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.05.28:905][576]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.28:906][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.28:906][576]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.05.28:934][578]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.05.28:934][578]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.28:934][578]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.28:934][578]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.05.30:170][701]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 5D23A281E40204A0CC25A36F545E6A184747C173), compiling. 
+[2023.02.28-14.05.30:178][701]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.05.30:178][701]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.30:178][701]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.30:178][701]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.05.31:033][770]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.05.31:033][770]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.31:033][770]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.31:033][770]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.05.31:528][812]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.05.31:528][812]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.31:528][812]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.31:528][812]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.05.55:962][549]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: E18277336FCCB384A1D6FFACEFD67E1FC879948E), compiling. 
+[2023.02.28-14.05.55:965][549]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A7155D59B6E7C00FCAC08820F3ECA2F9CE99C5DC), compiling. 
+[2023.02.28-14.05.55:967][549]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.05.55:968][549]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.55:968][549]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.55:968][549]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Total job queries 1142, among them cache hits 745 (65.24%)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Tracking 342 distinct input hashes that result in 96 distinct outputs (28.07%)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: RAM used: 0.24 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Shaders Compiled: 125
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Jobs assigned 342, completed 342 (100.00%)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Average time worker was idle: 58.07 s
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Time job spent in pending queue: average 1.65 s, longest 8.30 s
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Job execution time: average 2.72 s, max 11.55 s
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Job life time (pending + execution): average 4.37 s, max 11.59
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 87.49 s
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Jobs were issued in 301 batches (only local compilation was used), average 1.14 jobs/batch
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Average processing rate: 3.91 jobs/sec
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Effective parallelization: 4.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   15 times, average 1.54 sec, max 1.91 sec, min 1.20 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   15 times, average 1.51 sec, max 1.91 sec, min 1.16 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   15 times, average 1.49 sec, max 2.18 sec, min 0.97 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   15 times, average 1.44 sec, max 1.85 sec, min 1.12 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   15 times, average 1.43 sec, max 2.06 sec, min 1.14 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.82% of total time (compiled   49 times, average 1.28 sec, max 1.93 sec, min 0.84 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.83% of total time (compiled   49 times, average 1.20 sec, max 2.04 sec, min 0.71 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.12% of total time (compiled   31 times, average 1.25 sec, max 2.08 sec, min 0.94 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.45% of total time (compiled   15 times, average 1.54 sec, max 1.91 sec, min 1.20 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.32% of total time (compiled   15 times, average 1.51 sec, max 1.91 sec, min 1.16 sec)
+[2023.02.28-14.05.56:001][550]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.05.56:015][551]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.05.56:015][551]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.05.56:015][551]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.05.56:015][551]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.02:615][220]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 0C5A1F460E3209CC6630F45CAF90940A616A80A8), compiling. 
+[2023.02.28-14.06.02:618][220]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B436E85A4E3FCB4FED375D2C891D4701A5A83A3B), compiling. 
+[2023.02.28-14.06.02:624][220]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.02:624][220]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.02:624][220]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.02:624][220]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.02:646][222]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.02:646][222]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.02:646][222]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.02:646][222]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.06:280][567]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 81B7BB0B139234DE1BC703267ACFD9E51403D125), compiling. 
+[2023.02.28-14.06.06:282][567]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 76D4397D1EAEDE25CBF30E7D996EE28C394C759C), compiling. 
+[2023.02.28-14.06.06:287][567]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.06:287][567]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.06:287][567]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.06:287][567]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.06:308][569]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.06:308][569]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.06:308][569]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.06:308][569]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.07:384][656]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.28-14.06.15:987][611]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: D5E38BBA2DD4E0DFF2ECD089EB57DF2F544CD7F8), compiling. 
+[2023.02.28-14.06.15:996][611]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.15:996][611]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.15:996][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.15:996][611]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.16:043][613]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.16:044][613]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.16:044][613]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.16:044][613]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.18:074][825]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 679CDE784B7DAEEC3C04FC399D94087E82004835), compiling. 
+[2023.02.28-14.06.18:077][825]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B9B58535E7943770E886D289E6A8AB6FB2AE1D61), compiling. 
+[2023.02.28-14.06.18:084][825]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.18:084][825]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.18:084][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.18:084][825]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.18:110][827]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.18:110][827]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.18:110][827]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.18:110][827]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.19:145][931]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 3690B01F5B5698C5DDEEA4832BC618895A98F956), compiling. 
+[2023.02.28-14.06.19:153][931]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.19:153][931]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.19:153][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.19:153][931]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.19:176][933]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.19:176][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.19:176][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.19:176][933]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.20:442][ 61]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: CAB66FC6B9A442603696F593A27D242ECDEE6D52), compiling. 
+[2023.02.28-14.06.20:450][ 61]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.20:450][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.20:450][ 61]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.20:450][ 61]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.21:253][115]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.06.21:253][115]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.21:253][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.21:253][115]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.06.21:755][154]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.21:755][154]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.21:755][154]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.21:755][154]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.06.29:687][ 38]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 6A1DC0DB60CC503C04DF9B97CCC9E1693434AE37), compiling. 
+[2023.02.28-14.06.29:689][ 38]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A1A70DB861F9F54033DD7EE56B072423F1438BC8), compiling. 
+[2023.02.28-14.06.29:694][ 38]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.29:694][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.29:694][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.29:694][ 38]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.29:715][ 40]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.29:715][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.29:715][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.29:715][ 40]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.30:769][135]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 884946E837C26730AF3B260B81DF023BB573B066), compiling. 
+[2023.02.28-14.06.30:771][135]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EC2476E2220AB95F19549397D9523BBA5639DD81), compiling. 
+[2023.02.28-14.06.30:777][135]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.30:777][135]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.30:777][135]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.30:777][135]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.30:800][137]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.30:800][137]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.30:800][137]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.30:800][137]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.31:778][232]LogMaterialEditor: Saving and Compiling material M_SnowWithShine
+[2023.02.28-14.06.32:222][232]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 99D4311DD365259ACA78D27FEF67C887CCFFF0D8), compiling. 
+[2023.02.28-14.06.32:236][232]LogMaterial: Display: Missing cached shadermap for M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: F36DCBAD9EAEFC899A7A76A94562DE53298899DF), compiling. 
+[2023.02.28-14.06.32:299][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.02.28-14.06.33:252][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.02.28-14.06.35:519][232]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.02.28-14.06.40:820][232]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000102s (5.453722s overbudget)
+[2023.02.28-14.06.40:842][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_SnowWithShine" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset" SILENT=true
+[2023.02.28-14.06.40:846][232]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_SnowWithShine
+[2023.02.28-14.06.40:846][232]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/M_SnowWithShine8058EC04484CF377F0258CB1822BFAB5.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset'
+[2023.02.28-14.06.40:862][232]AssetCheck: New page: Asset Save: M_SnowWithShine
+[2023.02.28-14.06.40:862][232]LogContentValidation: Display: Validating Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Base pass shader: 140 instructions
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Base pass vertex shader: 173 instructions
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Texture samplers: 4/16
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.40:864][232]MaterialEditorStats: Shader Count: 48
+[2023.02.28-14.06.43:638][525]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.28-14.06.47:452][942]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 63F97B0F252EA1FA0D43635804884A8BB9FBAA57), compiling. 
+[2023.02.28-14.06.47:461][942]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 68853E0B3D72EFB39CDFD36A6E400145EA0D8C22), compiling. 
+[2023.02.28-14.06.47:466][942]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.47:466][942]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.47:466][942]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.47:466][942]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.48:086][991]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.06.48:086][991]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.48:086][991]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.48:086][991]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.06.48:492][ 25]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.48:492][ 25]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.48:492][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.48:493][ 25]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.06.54:533][677]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: F67318B8C07CE2CC6DE4C279897B02790DE5ADED), compiling. 
+[2023.02.28-14.06.54:542][677]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: FB572A3DEACA9F1668655F78E657B7198297D824), compiling. 
+[2023.02.28-14.06.54:545][677]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.06.54:545][677]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.54:545][677]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.54:545][677]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.06.54:567][679]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.06.54:567][679]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.54:567][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.54:567][679]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.06.55:253][742]LogMaterialEditor: Saving and Compiling material M_SnowWithShine
+[2023.02.28-14.06.55:687][742]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 72324073C08E8B24CBC7EF6A668CB72B74579B63), compiling. 
+[2023.02.28-14.06.55:700][742]LogMaterial: Display: Missing cached shadermap for M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 7FBD2327AC030E29991D28B4E0BAFD00A743A06B), compiling. 
+[2023.02.28-14.06.55:753][742]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.02.28-14.06.55:939][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.02.28-14.06.56:069][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_SnowWithShine" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset" SILENT=true
+[2023.02.28-14.06.56:073][742]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_SnowWithShine
+[2023.02.28-14.06.56:073][742]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/M_SnowWithShineBCAD44694BF88B32F59AD9B2A21E18F8.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset'
+[2023.02.28-14.06.56:088][742]AssetCheck: New page: Asset Save: M_SnowWithShine
+[2023.02.28-14.06.56:088][742]LogContentValidation: Display: Validating Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-14.06.56:089][742]MaterialEditorStats: Base pass shader: 140 instructions
+[2023.02.28-14.06.56:089][742]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2023.02.28-14.06.56:090][742]MaterialEditorStats: Base pass vertex shader: 173 instructions
+[2023.02.28-14.06.56:090][742]MaterialEditorStats: Texture samplers: 4/16
+[2023.02.28-14.06.56:090][742]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.06.56:090][742]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.06.56:090][742]MaterialEditorStats: Shader Count: 48
+[2023.02.28-14.06.58:733][982]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.06.58:741][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.06.58:741][982]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:06:58 PM)
+[2023.02.28-14.06.58:763][982]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.06.58:769][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005900s)
+[2023.02.28-14.06.58:769][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.006007s)
+[2023.02.28-14.06.58:769][982]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.06.58:769][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.06.58:770][982]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.06.58:770][982]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2023.02.28-14.06.58:816][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.02.28-14.06.58:818][982]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.06.58:818][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.06.58:818][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.06.58:819][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.06.58:819][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.06.58:819][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.06.58:821][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.06.58:843][982]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.06.58:844][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.06.58:844][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.06.58:844][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.06.58:845][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.02.28-14.06.58:845][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.02.28-14.06.58:846][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.02.28-14.06.58:847][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.02.28-14.06.58:847][982]LogInit: FAudioDevice initialized.
+[2023.02.28-14.06.58:847][982]LogAudio: Display: Audio Device (ID: 15) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.06.58:860][982]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.06.58:861][982]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.06.58
+[2023.02.28-14.06.58:861][982]LogWorld: Bringing up level for play took: 0.001671
+[2023.02.28-14.06.58:864][982]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.02.28-14.06.58:866][982]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.06.58:867][982]PIE: Server logged in
+[2023.02.28-14.06.58:868][982]PIE: Play in editor total start time 0.127 seconds.
+[2023.02.28-14.07.01:553][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.07.01:553][ 71]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.07.01:554][ 71]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.07.01:554][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.07.01:569][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.07.01:575][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.07.01:618][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.07.01:618][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.02.28-14.07.01:620][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.02.28-14.07.01:629][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.02.28-14.07.01:687][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.02.28-14.07.12:596][775]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.07.12:604][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.07.12:604][775]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:07:12 PM)
+[2023.02.28-14.07.12:633][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.07.12:638][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004348s)
+[2023.02.28-14.07.12:638][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.004441s)
+[2023.02.28-14.07.12:638][775]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.07.12:638][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.07.12:638][775]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.07.12:638][775]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2023.02.28-14.07.12:685][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.02.28-14.07.12:688][775]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.07.12:688][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.07.12:688][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.07.12:689][775]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.07.12:689][775]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.07.12:689][775]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.07.12:692][775]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.07.12:715][775]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.07.12:716][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.07.12:716][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.07.12:716][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.07.12:717][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.02.28-14.07.12:717][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.02.28-14.07.12:719][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.02.28-14.07.12:719][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.02.28-14.07.12:719][775]LogInit: FAudioDevice initialized.
+[2023.02.28-14.07.12:719][775]LogAudio: Display: Audio Device (ID: 16) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.07.12:730][775]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.07.12:732][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.07.12
+[2023.02.28-14.07.12:733][775]LogWorld: Bringing up level for play took: 0.002083
+[2023.02.28-14.07.12:735][775]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.02.28-14.07.12:737][775]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.07.12:738][775]PIE: Server logged in
+[2023.02.28-14.07.12:739][775]PIE: Play in editor total start time 0.135 seconds.
+[2023.02.28-14.07.26:414][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.07.26:414][308]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.07.26:414][308]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.07.26:415][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.07.26:427][308]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.07.26:432][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.07.26:476][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.07.26:476][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.02.28-14.07.26:478][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.02.28-14.07.26:484][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.02.28-14.07.26:539][309]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.02.28-14.07.38:702][537]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 1FBA020C0EE40C71B9CEB135AC51496B7C59AC96), compiling. 
+[2023.02.28-14.07.38:711][537]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 54182F3E825C01F89F91F54DC65D75ADA884B8DA), compiling. 
+[2023.02.28-14.07.38:715][537]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.07.38:715][537]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.38:715][537]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.38:715][537]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.07.39:478][606]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.07.39:478][606]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.39:478][606]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.39:478][606]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.07.39:881][648]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.07.39:881][648]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.39:881][648]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.39:881][648]MaterialEditorStats: Shader Count: 2
+[2023.02.28-14.07.45:919][354]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 7BDBB63BACB27EAAB56F4A5B036446A6B181C7E0), compiling. 
+[2023.02.28-14.07.45:928][354]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 71E6E6D4D3E96FB97DCE13F90603F5D74B97D7C0), compiling. 
+[2023.02.28-14.07.45:933][354]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.07.45:933][354]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.45:933][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.45:933][354]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.07.46:571][411]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.07.46:571][411]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.46:571][411]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.46:571][411]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.07.47:171][465]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.07.47:171][465]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.47:171][465]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.47:171][465]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.07.56:033][488]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 5B74E433EF37C268DF10BF66458ED0568055E91A), compiling. 
+[2023.02.28-14.07.56:035][488]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8D08A3C6DB9F7EBA819DD3573203982896867718), compiling. 
+[2023.02.28-14.07.56:041][488]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.07.56:041][488]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.56:041][488]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.56:041][488]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.07.56:786][538]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.07.56:786][538]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.56:786][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.56:786][538]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.07.57:482][583]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.07.57:482][583]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.07.57:482][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.07.57:482][583]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.07.57:873][618]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.28-14.08.03:303][228]LogMaterialEditor: Saving and Compiling material M_SnowWithShine
+[2023.02.28-14.08.03:738][228]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 22501F3C094DBBC083440A0ECF7E501F2051C5BE), compiling. 
+[2023.02.28-14.08.03:752][228]LogMaterial: Display: Missing cached shadermap for M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 1CC9925376BF38EEDCE92D64A56F2342EEC70477), compiling. 
+[2023.02.28-14.08.03:810][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.02.28-14.08.04:764][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.02.28-14.08.07:018][228]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.02.28-14.08.12:532][228]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003526s (5.667873s overbudget)
+[2023.02.28-14.08.12:556][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_SnowWithShine" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset" SILENT=true
+[2023.02.28-14.08.12:560][228]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_SnowWithShine
+[2023.02.28-14.08.12:560][228]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/M_SnowWithShine478ABBA844B15DA9A4FF33A4712758E0.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset'
+[2023.02.28-14.08.12:576][228]AssetCheck: New page: Asset Save: M_SnowWithShine
+[2023.02.28-14.08.12:576][228]LogContentValidation: Display: Validating Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Base pass shader: 140 instructions
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Base pass vertex shader: 173 instructions
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Texture samplers: 4/16
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.08.12:577][228]MaterialEditorStats: Shader Count: 48
+[2023.02.28-14.08.16:008][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.08.16:017][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.08.16:017][566]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:08:16 PM)
+[2023.02.28-14.08.16:017][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.16:022][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004721s)
+[2023.02.28-14.08.16:022][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.004792s)
+[2023.02.28-14.08.16:022][566]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.08.16:022][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.08.16:023][566]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.08.16:023][566]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2023.02.28-14.08.16:069][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.02.28-14.08.16:071][566]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.08.16:071][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.08.16:071][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.08.16:072][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.08.16:072][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.08.16:072][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.08.16:074][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.08.16:095][566]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.08.16:095][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.08.16:095][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.08.16:096][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.08.16:096][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.02.28-14.08.16:096][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.02.28-14.08.16:098][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.02.28-14.08.16:098][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.02.28-14.08.16:098][566]LogInit: FAudioDevice initialized.
+[2023.02.28-14.08.16:098][566]LogAudio: Display: Audio Device (ID: 17) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.08.16:112][566]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.08.16:113][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.08.16
+[2023.02.28-14.08.16:113][566]LogWorld: Bringing up level for play took: 0.001615
+[2023.02.28-14.08.16:115][566]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.02.28-14.08.16:117][566]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.08.16:118][566]PIE: Server logged in
+[2023.02.28-14.08.16:119][566]PIE: Play in editor total start time 0.102 seconds.
+[2023.02.28-14.08.23:955][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.23:955][436]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.23:955][436]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.08.23:956][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.23:968][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.08.23:974][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.24:016][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.24:017][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.02.28-14.08.24:018][436]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.02.28-14.08.24:025][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.02.28-14.08.24:083][437]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.02.28-14.08.32:301][ 91]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.08.32:309][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.08.32:309][ 91]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:08:32 PM)
+[2023.02.28-14.08.32:335][ 91]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.32:339][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004872s)
+[2023.02.28-14.08.32:340][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.004983s)
+[2023.02.28-14.08.32:340][ 91]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.08.32:340][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.08.32:340][ 91]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.08.32:340][ 91]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2023.02.28-14.08.32:388][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.02.28-14.08.32:391][ 91]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.08.32:391][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.08.32:391][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.08.32:392][ 91]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.08.32:392][ 91]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.08.32:392][ 91]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.08.32:394][ 91]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.08.32:418][ 91]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.08.32:419][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.08.32:419][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.08.32:419][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.08.32:419][ 91]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.02.28-14.08.32:420][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.02.28-14.08.32:421][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.02.28-14.08.32:421][ 91]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.02.28-14.08.32:421][ 91]LogInit: FAudioDevice initialized.
+[2023.02.28-14.08.32:421][ 91]LogAudio: Display: Audio Device (ID: 18) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.08.32:435][ 91]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.08.32:437][ 91]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.08.32
+[2023.02.28-14.08.32:438][ 91]LogWorld: Bringing up level for play took: 0.001978
+[2023.02.28-14.08.32:440][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.02.28-14.08.32:442][ 91]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.08.32:443][ 91]PIE: Server logged in
+[2023.02.28-14.08.32:443][ 91]PIE: Play in editor total start time 0.134 seconds.
+[2023.02.28-14.08.33:445][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.33:445][187]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.33:446][187]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.08.33:446][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.33:460][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.08.33:466][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.33:511][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.33:511][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.02.28-14.08.33:513][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.02.28-14.08.33:519][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.28-14.08.33:559][188]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.02.28-14.08.39:427][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.08.39:435][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.08.39:435][662]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:08:39 PM)
+[2023.02.28-14.08.39:435][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.39:440][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004694s)
+[2023.02.28-14.08.39:440][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.004762s)
+[2023.02.28-14.08.39:440][662]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.08.39:440][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.08.39:441][662]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.08.39:441][662]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2023.02.28-14.08.39:484][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.02.28-14.08.39:488][662]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.08.39:488][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.08.39:488][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.08.39:489][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.08.39:489][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.08.39:489][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.08.39:491][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.08.39:512][662]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.08.39:513][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.08.39:513][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.08.39:513][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.08.39:513][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.02.28-14.08.39:513][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.02.28-14.08.39:515][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.02.28-14.08.39:515][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.02.28-14.08.39:515][662]LogInit: FAudioDevice initialized.
+[2023.02.28-14.08.39:515][662]LogAudio: Display: Audio Device (ID: 19) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.08.39:526][662]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.08.39:528][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.08.39
+[2023.02.28-14.08.39:528][662]LogWorld: Bringing up level for play took: 0.001715
+[2023.02.28-14.08.39:530][662]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.02.28-14.08.39:532][662]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.08.39:533][662]PIE: Server logged in
+[2023.02.28-14.08.39:534][662]PIE: Play in editor total start time 0.099 seconds.
+[2023.02.28-14.08.46:965][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.46:966][  8]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.08.46:966][  8]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.08.46:966][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.46:976][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.08.46:983][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.08.47:026][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.08.47:026][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.02.28-14.08.47:028][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.02.28-14.08.47:033][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.02.28-14.08.47:078][  9]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.02.28-14.08.53:745][649]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 3DA4659EDD7081EEEFC37674BDD114FD1B4818B9), compiling. 
+[2023.02.28-14.08.53:755][649]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 6E6C245B4E249034909AD581277D9C02B39A1947), compiling. 
+[2023.02.28-14.08.53:758][649]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.08.53:758][649]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.08.53:758][649]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.08.53:758][649]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.08.54:475][714]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.08.54:475][714]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.08.54:475][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.08.54:476][714]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.08.55:084][761]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.08.55:084][761]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.08.55:084][761]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.08.55:084][761]MaterialEditorStats: Shader Count: 3
+[2023.02.28-14.09.02:554][574]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 7AB8CC6E2C54C715B2E05B123C67DCD3926B1353), compiling. 
+[2023.02.28-14.09.02:557][574]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3C154BE0DD3DD36412BAF11D3917A2BBBF34CE62), compiling. 
+[2023.02.28-14.09.02:563][574]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.09.02:563][574]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.02:563][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.02:563][574]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Total job queries 1416, among them cache hits 893 (63.06%)
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Tracking 463 distinct input hashes that result in 129 distinct outputs (27.86%)
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: RAM used: 0.32 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Shaders Compiled: 129
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Jobs assigned 468, completed 463 (98.93%)
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Average time worker was idle: 48.47 s
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Time job spent in pending queue: average 1.78 s, longest 8.30 s
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Job execution time: average 2.34 s, max 11.55 s
+[2023.02.28-14.09.03:226][616]LogShaderCompilers: Display: Job life time (pending + execution): average 4.13 s, max 11.59
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 115.59 s
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Jobs were issued in 427 batches (only local compilation was used), average 1.10 jobs/batch
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Average processing rate: 4.01 jobs/sec
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Effective parallelization: 4.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   21 times, average 1.52 sec, max 1.91 sec, min 1.19 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   21 times, average 1.47 sec, max 2.18 sec, min 0.97 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   21 times, average 1.46 sec, max 1.91 sec, min 1.12 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   21 times, average 1.39 sec, max 2.06 sec, min 1.14 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   21 times, average 1.39 sec, max 1.85 sec, min 1.11 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.91% of total time (compiled   63 times, average 1.24 sec, max 1.93 sec, min 0.83 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.06% of total time (compiled   63 times, average 1.17 sec, max 2.04 sec, min 0.69 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.92% of total time (compiled   41 times, average 1.22 sec, max 2.08 sec, min 0.88 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.66% of total time (compiled   21 times, average 1.52 sec, max 1.91 sec, min 1.19 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.49% of total time (compiled   21 times, average 1.47 sec, max 2.18 sec, min 0.97 sec)
+[2023.02.28-14.09.03:227][616]LogShaderCompilers: Display: ================================================
+[2023.02.28-14.09.03:247][617]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.09.03:248][617]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.03:248][617]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.03:248][617]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.09.03:686][643]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: CD863F42D08051AF9397E45712B48447C27E5866), compiling. 
+[2023.02.28-14.09.03:691][643]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A5C9A9792F403901E92F6AEE82410AEFA57BC99E), compiling. 
+[2023.02.28-14.09.03:697][643]LogSlate: Window 'Color Picker' being destroyed
+[2023.02.28-14.09.03:715][643]MaterialEditorStats: Texture samplers: 0/16
+[2023.02.28-14.09.03:715][643]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.03:715][643]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.03:715][643]MaterialEditorStats: Shader Count: 0
+[2023.02.28-14.09.03:751][645]MaterialEditorStats: Texture samplers: 1/16
+[2023.02.28-14.09.03:752][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.03:752][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.03:752][645]MaterialEditorStats: Shader Count: 1
+[2023.02.28-14.09.04:039][669]MaterialEditorStats: Texture samplers: 3/16
+[2023.02.28-14.09.04:039][669]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.04:039][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.04:039][669]MaterialEditorStats: Shader Count: 4
+[2023.02.28-14.09.05:657][842]LogMaterialEditor: Saving and Compiling material M_SnowWithShine
+[2023.02.28-14.09.06:103][842]LogMaterial: Display: Missing cached shadermap for Preview:M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: B30B2DFFC161F35CF619D88EA85AC296FCBBF957), compiling. 
+[2023.02.28-14.09.06:116][842]LogMaterial: Display: Missing cached shadermap for M_SnowWithShine in PCD3D_SM5, Default, SM5 (DDC key hash: 05768595C8349CDBB41B5583BB161B66736D018A), compiling. 
+[2023.02.28-14.09.06:167][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.02.28-14.09.07:117][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.02.28-14.09.09:368][842]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.02.28-14.09.14:587][842]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002033s (5.376563s overbudget)
+[2023.02.28-14.09.14:609][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_SnowWithShine" FILE="../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset" SILENT=true
+[2023.02.28-14.09.14:612][842]LogSavePackage: Moving output files for package: /Game/Assets/Materials/M_SnowWithShine
+[2023.02.28-14.09.14:613][842]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/M_SnowWithShine1817A44140219C27B3D40699BA1198E3.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Assets/Materials/M_SnowWithShine.uasset'
+[2023.02.28-14.09.14:628][842]AssetCheck: New page: Asset Save: M_SnowWithShine
+[2023.02.28-14.09.14:628][842]LogContentValidation: Display: Validating Material /Game/Assets/Materials/M_SnowWithShine.M_SnowWithShine
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: Base pass shader: 140 instructions
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: Base pass vertex shader: 173 instructions
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: Texture samplers: 4/16
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.02.28-14.09.14:629][842]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.02.28-14.09.14:630][842]MaterialEditorStats: Shader Count: 48
+[2023.02.28-14.09.17:323][ 84]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.09.17:330][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.09.17:330][ 84]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:09:17 PM)
+[2023.02.28-14.09.17:331][ 84]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.09.17:338][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006872s)
+[2023.02.28-14.09.17:338][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.006952s)
+[2023.02.28-14.09.17:338][ 84]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.09.17:338][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.09.17:339][ 84]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.09.17:339][ 84]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2023.02.28-14.09.17:383][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.02.28-14.09.17:385][ 84]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.09.17:385][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.09.17:385][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.09.17:386][ 84]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.09.17:386][ 84]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.09.17:386][ 84]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.09.17:388][ 84]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.02.28-14.09.17:411][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.02.28-14.09.17:413][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.02.28-14.09.17:413][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.02.28-14.09.17:413][ 84]LogInit: FAudioDevice initialized.
+[2023.02.28-14.09.17:413][ 84]LogAudio: Display: Audio Device (ID: 20) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.09.17:427][ 84]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.09.17:429][ 84]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.09.17
+[2023.02.28-14.09.17:429][ 84]LogWorld: Bringing up level for play took: 0.001736
+[2023.02.28-14.09.17:430][ 84]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.02.28-14.09.17:432][ 84]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.09.17:433][ 84]PIE: Server logged in
+[2023.02.28-14.09.17:433][ 84]PIE: Play in editor total start time 0.104 seconds.
+[2023.02.28-14.09.28:926][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.09.28:926][373]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.09.28:926][373]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.09.28:926][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.09.28:941][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.09.28:947][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.09.28:989][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.09.28:990][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.02.28-14.09.28:991][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.02.28-14.09.28:997][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.02.28-14.09.29:034][374]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.02.28-14.09.37:594][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.02.28-14.09.38:532][ 90]LogSlate: Window 'Save Content' being destroyed
+[2023.02.28-14.09.38:622][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.02.28-14.09.38:636][ 90]LogSavePackage: Moving output files for package: /Game/Maps/LVL_MaterialTesting
+[2023.02.28-14.09.38:636][ 90]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/LVL_MaterialTesting64FE2065436F4947A64AC18014F68EAC.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Maps/LVL_MaterialTesting.umap'
+[2023.02.28-14.09.38:646][ 90]LogFileHelpers: Saving map 'LVL_MaterialTesting' took 0.074
+[2023.02.28-14.09.38:662][ 90]AssetCheck: New page: Asset Save: LVL_MaterialTesting
+[2023.02.28-14.09.38:662][ 90]LogContentValidation: Display: Validating World /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting
+[2023.02.28-14.09.40:244][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.02.28-14.10.10:126][194]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.28-14.10.17:692][769]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.28-14.10.17:702][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.28-14.10.17:702][769]PIE: New page: PIE session: LVL_MaterialTesting (Feb 28, 2023, 4:10:17 PM)
+[2023.02.28-14.10.17:727][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.10.17:731][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004226s)
+[2023.02.28-14.10.17:731][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting to /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting (0.004312s)
+[2023.02.28-14.10.17:731][769]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.02.28-14.10.17:731][769]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.28-14.10.17:732][769]LogAIModule: Creating AISystem for world LVL_MaterialTesting
+[2023.02.28-14.10.17:732][769]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2023.02.28-14.10.17:776][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.02.28-14.10.17:778][769]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.28-14.10.17:779][769]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.02.28-14.10.17:779][769]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.28-14.10.17:779][769]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.28-14.10.17:779][769]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.28-14.10.17:779][769]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.28-14.10.17:781][769]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.28-14.10.17:803][769]LogAudioMixer: Display: Using Audio Hardware Device VG272U V (NVIDIA High Definition Audio)
+[2023.02.28-14.10.17:803][769]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.28-14.10.17:803][769]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.28-14.10.17:803][769]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.28-14.10.17:803][769]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.02.28-14.10.17:803][769]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.02.28-14.10.17:805][769]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.02.28-14.10.17:805][769]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.02.28-14.10.17:805][769]LogInit: FAudioDevice initialized.
+[2023.02.28-14.10.17:805][769]LogAudio: Display: Audio Device (ID: 21) registered with world 'LVL_MaterialTesting'.
+[2023.02.28-14.10.17:815][769]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.02.28-14.10.17:817][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LVL_MaterialTesting.LVL_MaterialTesting up for play (max tick rate 0) at 2023.02.28-15.10.17
+[2023.02.28-14.10.17:817][769]LogWorld: Bringing up level for play took: 0.001677
+[2023.02.28-14.10.17:819][769]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.02.28-14.10.17:821][769]LogBlueprintUserMessages: [BP_GameModeBase_C_0] 2
+[2023.02.28-14.10.17:821][769]PIE: Server logged in
+[2023.02.28-14.10.17:823][769]PIE: Play in editor total start time 0.122 seconds.
+[2023.02.28-14.10.19:187][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.10.19:187][886]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LVL_MaterialTesting
+[2023.02.28-14.10.19:187][886]LogWorld: UWorld::CleanupWorld for LVL_MaterialTesting, bSessionEnded=true, bCleanupResources=true
+[2023.02.28-14.10.19:188][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.10.19:200][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.28-14.10.19:206][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.28-14.10.19:249][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.28-14.10.19:249][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.02.28-14.10.19:250][886]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.02.28-14.10.19:256][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.02.28-14.10.19:287][887]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.02.28-14.10.58:406][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.02.28-14.10.59:573][308]LogSlate: Window 'Save Content' being destroyed
+[2023.02.28-14.10.59:655][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.02.28-14.10.59:670][308]LogSavePackage: Moving output files for package: /Game/Maps/LVL_MaterialTesting
+[2023.02.28-14.10.59:670][308]LogSavePackage: Moving '../../../../../Unreal Projects Git/Crows nest/CrowBun/Saved/LVL_MaterialTesting37B853D1495783D8C3A6FB9315DAB10C.tmp' to '../../../../../Unreal Projects Git/Crows nest/CrowBun/Content/Maps/LVL_MaterialTesting.umap'
+[2023.02.28-14.10.59:680][308]LogFileHelpers: Saving map 'LVL_MaterialTesting' took 0.070
+[2023.02.28-14.10.59:695][308]AssetCheck: New page: Asset Save: LVL_MaterialTesting
+[2023.02.28-14.10.59:695][308]LogContentValidation: Display: Validating World /Game/Maps/LVL_MaterialTesting.LVL_MaterialTesting
